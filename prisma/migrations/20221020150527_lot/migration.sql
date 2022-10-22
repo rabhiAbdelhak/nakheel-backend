@@ -1,0 +1,11 @@
+-- AlterTable
+ALTER TABLE "lots" ALTER COLUMN "theoStock" SET DEFAULT 0,
+ALTER COLUMN "physStock" SET DEFAULT 0,
+ALTER COLUMN "criticalQuantity" SET DEFAULT 0,
+ALTER COLUMN "minQuantity" SET DEFAULT 0,
+ALTER COLUMN "isActive" SET DEFAULT true,
+ALTER COLUMN "maxPrice" SET DEFAULT 0,
+ALTER COLUMN "minPrice" SET DEFAULT 0;
+
+-- AlterTable
+ALTER TABLE "products" ALTER COLUMN "isActive" SET DEFAULT true;
